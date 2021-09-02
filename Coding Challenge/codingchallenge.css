@@ -1,0 +1,74 @@
+body{
+  background-image: url(sfondo.jpg);
+  background-size: cover;
+  font-family: Trebuchet MS;
+}
+
+.sfondogrigio{
+  margin:30px auto;
+  width: 60%;
+  background: rgba(0,0,0,0.6);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.contenitore{
+  width: 85%;
+  margin:30px auto;
+}
+
+header{
+  text-align: center;
+  color: #00FF00;
+}
+
+header > h2{
+  margin: 5px;
+}
+
+header > img{
+  width: 200px;
+}
+
+nav > div{
+  text-align: center;
+  background-color: #00FF00;
+  padding: 10px;
+}
+
+
+.monopattino{
+  color: lightgrey;
+  margin: 20px auto;
+  font-size: 12px;
+}
+
+.nome{
+  font-size: 23px;
+  color: white;
+}
+
+.freccia:after{
+  content: "\21A6";
+}
+
+.carica1{
+  width: 40%;
+  background: orange;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.carica2{
+  width: 65%;
+  background: #00EE00;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.carica3{
+  width: 18%;
+  background: red;
+  padding: 7px;
+  border-radius: 5px;
+}
